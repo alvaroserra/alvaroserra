@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title> introducido a HTML y CSS Alvaro Serradilla</title> 
+<style>
+    .titulo_2 {
+      color:rgb(0, 255, 255);
+      background-color: rgb(184, 204, 0);
+    }
+    #introducion{
+      background-color: rgb(255, 38, 0);
+    }
+    body{
+        background-image: url(https://static.vecteezy.com/system/resources/previews/001/176/927/non_2x/blue-and-white-abstract-background-vector.jpg);
+    }
+</style>
+</head>
+<body class="introducion_a_html">
+<h1 id="introducion">INTRODUCIÓN A MAS DE HTML Alvaro Serradilla</h1>
+<br>
+<p> <strong>Indice:</strong> </p>
+<ul>
+    <li><a href="#vinculos_en_html_absoluto">Vinculos en HTML absoluto</a></li>
+    <li><a href="#vinculos_en_html_relativo">Vinculos en HTML relativo</a></li>
+    <li><a href="#vinculos_en_html_en_una_ventana_nueva">Vinculos en HTML en una ventana nueva</a></li>
+    <li><a href="#vinculos_en_html_interno"></a>Vinculos en HTML interno</li>
+    <li><a href="#tablas">Tablas</a></li>
+</ul>
+<h2 id="vinculos_en_html_absoluto" class="titulo_2">Vinculos en HTML absoluto</h2>
+<p>Para crear un vinculo a una pagina externa en html debemos escribir un comando llamado: a href="la URL de la pagina" texto /a. <br></p>
+<a href="https://www.iesgaherrera.com/">La pagina del instituto</a>
+<br>
+<a href="https://www.iesgaherrera.com/"><img src="imagenes/LOGO_SIN_FONDO3.png" alt="Logo del instituto"></a>
+<h2 id="vinculos_en_html_relativo" class="titulo_2">Vinculos en HTML relativo</h2>
+<p>
+Para crear un vinvulo dentro de la misma pagina debemos añadir una id a donde querramos que nos dirija el vinculo dentro de la misma pagina y ahora dentro de href escribimos la id con # delante 
+</p>
+<a href="index.html">Vinculo a la introducido</a>
+<h2 id="vinculos_en_html_en_una_ventana_nueva" class="titulo_2">Vinculos en HTML en una ventana nueva</h2>
+<a href="https://www.iesgaherrera.com/" target="blanck">La pagina del instituto</a>
+<h2 id="vinculos_en_html_interno" class="titulo_2">Vinculos en HTML interno</h2>
+<a href="#introducion">subir</a>
+<h2 id="tablas" class="titulo_2">Tablas</h2>
+Para poder hacer tablas tenemos que pones table como comando y debajo añadir una tarjeta llamada thead que sera donde pondremos los titulos que tendra nuestar tabla debajo de thead ponemos th para poner los titulos y cerramos th y thead, ahora añadimos una etiqueta llamada tbody que tendra los datos de nuestra tabla para cada dato tendremos que añadir tr y dentro de estos td para cada uno de los datos que quedamos añadir y cerramos tr y tbody.
+<table>
+    <thead>
+        <tr>
+            <th>Comida</th>
+            <th>Ingredientes</th>
+            <th>Precio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Pizza
+            <td>tomate, queso
+            <td>10€
+        </tr>
+         <tr>
+            <td>Macarrones con tomate
+            <td>tomate y macarrones
+            <td>15€
+        </tr>
+         <tr>
+            <td>Espaguetis
+            <td>tomate y espaguetis
+            <td>15€
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
